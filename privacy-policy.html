@@ -3,300 +3,385 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for DigiTrafficAI (DTAI) - Learn how we handle your personal information responsibly and transparently.">
-    <meta name="keywords" content="privacy policy, DTAI, DigiTrafficAI, data protection, privacy">
+    <meta name="description" content="Read the DigiTrafficAI (DTAI) Privacy Policy, effective 03 October 2026.">
+    <meta name="theme-color" content="#101827">
     <title>Privacy Policy | DigiTrafficAI (DTAI)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         :root {
-            --primary-color: #1a1a2e;
-            --secondary-color: #0f3460;
-            --accent-color: #00b4d8;
-            --light-bg: #f8f9fa;
-            --text-dark: #2c3e50;
-            --text-light: #555;
-            --border-color: #e0e0e0;
-            --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
-            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            color-scheme: light;
+            --ink: #172235;
+            --muted: #5b6677;
+            --blue: #2563eb;
+            --blue-dark: #1747a6;
+            --line: #dfe5ec;
+            --paper: #ffffff;
+            --canvas: #f4f6f8;
+            --navy: #101827;
+            --content-width: 1240px;
         }
 
-        html {
-            scroll-behavior: smooth;
-        }
-
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: 94px; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            color: var(--text-dark);
-            line-height: 1.6;
-            background-color: #ffffff;
+            margin: 0;
+            background: var(--canvas);
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
         }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem;
+        a { color: var(--blue-dark); text-underline-offset: 3px; }
+        a:hover { color: var(--blue); }
+        a:focus-visible, button:focus-visible, summary:focus-visible {
+            outline: 3px solid #7aa7ff;
+            outline-offset: 3px;
         }
-
-        .policy-wrapper {
-            display: grid;
-            grid-template-columns: 280px 1fr;
-            gap: 3rem;
-            margin: 3rem auto;
-            animation: fadeIn 0.6s ease-out;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .toc {
+        .site-header {
             position: sticky;
-            top: 20px;
-            height: fit-content;
-            background-color: var(--light-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: var(--shadow);
+            top: 0;
+            z-index: 20;
+            background: rgba(16, 24, 39, .97);
+            border-bottom: 1px solid rgba(255, 255, 255, .1);
+            box-shadow: 0 5px 20px rgba(16, 24, 39, .12);
         }
-
-        .toc h3 {
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--secondary-color);
-            margin-bottom: 1.5rem;
-            font-weight: 700;
+        .header-inner {
+            width: min(var(--content-width), calc(100% - 48px));
+            min-height: 82px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
         }
-
-        .toc ul {
-            list-style: none;
-        }
-
-        .toc li {
-            margin-bottom: 0.75rem;
-        }
-
-        .toc a {
-            color: var(--text-light);
-            text-decoration: none;
-            font-size: 0.9rem;
+        .brand-logo {
             display: block;
-            padding: 0.5rem 0;
-            border-left: 3px solid transparent;
-            padding-left: 0.75rem;
-            transition: var(--transition);
+            width: min(260px, 58vw);
+            height: auto;
         }
-
-        .toc a:hover {
-            color: var(--accent-color);
-            border-left-color: var(--accent-color);
-        }
-
-        .toc a.active {
-            color: var(--accent-color);
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            color: #f4f7fb;
+            font-size: 14px;
             font-weight: 600;
-            border-left-color: var(--accent-color);
-        }
-
-        .privacy-commitment {
-            background: linear-gradient(135deg, rgba(0, 180, 216, 0.08) 0%, rgba(15, 52, 96, 0.08) 100%);
-            border-left: 4px solid var(--accent-color);
-            padding: 2rem;
-            border-radius: 8px;
-            margin-bottom: 3rem;
-            box-shadow: var(--shadow);
-        }
-
-        .privacy-commitment h3 {
-            color: var(--secondary-color);
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .privacy-commitment p {
-            color: var(--text-dark);
-            font-size: 1.1rem;
-            font-style: italic;
-            line-height: 1.8;
-        }
-
-        h2 {
-            color: var(--primary-color);
-            font-size: 1.8rem;
-            margin-top: 3rem;
-            margin-bottom: 1.5rem;
-            font-weight: 700;
-            padding-bottom: 0.75rem;
-            border-bottom: 2px solid var(--accent-color);
-        }
-
-        h3 {
-            color: var(--secondary-color);
-            font-size: 1.3rem;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
-
-        p {
-            margin-bottom: 1.2rem;
-            color: var(--text-dark);
-            line-height: 1.8;
-        }
-
-        ul, ol {
-            margin-left: 2rem;
-            margin-bottom: 1.5rem;
-        }
-
-        li {
-            margin-bottom: 0.75rem;
-            color: var(--text-dark);
-            line-height: 1.8;
-        }
-
-        hr {
-            border: none;
-            border-top: 2px solid var(--border-color);
-            margin: 2.5rem 0;
-        }
-
-        a {
-            color: var(--accent-color);
             text-decoration: none;
-            transition: var(--transition);
-            font-weight: 500;
+            transition: color .2s ease, transform .2s ease;
+            white-space: nowrap;
         }
-
-        a:hover {
-            color: var(--secondary-color);
-            text-decoration: underline;
+        .back-link:hover { color: #8db3ff; transform: translateX(-2px); }
+        .back-link span { color: #78a5ff; font-size: 19px; }
+        .hero {
+            position: relative;
+            overflow: hidden;
+            background: var(--paper);
+            border-bottom: 1px solid var(--line);
         }
-
-        .your-rights-card {
-            background-color: var(--light-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 2rem;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: var(--shadow);
+        .hero::after {
+            position: absolute;
+            top: 0;
+            right: max(4vw, calc((100vw - var(--content-width)) / 2));
+            width: 5px;
+            height: 100%;
+            background: var(--blue);
+            content: '';
         }
-
-        .your-rights-card ul {
-            background-color: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-left: 0;
+        .hero-inner {
+            width: min(var(--content-width), calc(100% - 48px));
+            margin: 0 auto;
+            padding: 74px 0 58px;
         }
-
-        .contact-card {
-            background: linear-gradient(135deg, rgba(0, 180, 216, 0.12) 0%, rgba(15, 52, 96, 0.12) 100%);
-            border: 2px solid var(--accent-color);
-            border-radius: 12px;
-            padding: 2.5rem;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: var(--shadow-lg);
-        }
-
-        .contact-card h4 {
-            color: var(--primary-color);
-            font-size: 1.3rem;
-            margin-bottom: 1.5rem;
+        .eyebrow {
+            margin: 0 0 15px;
+            color: var(--blue-dark);
+            font-size: 12px;
             font-weight: 700;
+            letter-spacing: .12em;
+            text-transform: uppercase;
         }
-
-        .contact-card p {
-            margin-bottom: 1rem;
-            color: var(--text-dark);
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+        h1 {
+            max-width: 800px;
+            margin: 0;
+            color: var(--ink);
+            font-size: clamp(40px, 6vw, 66px);
+            font-weight: 800;
+            line-height: 1.1;
         }
-
-        .contact-card strong {
-            color: var(--secondary-color);
-            font-weight: 600;
+        .hero-company { margin: 10px 0 0; color: #39475b; font-size: 21px; font-weight: 600; }
+        .hero-intro { max-width: 760px; margin: 23px 0 0; color: var(--muted); font-size: 18px; line-height: 1.7; }
+        .effective-dates { display: flex; flex-wrap: wrap; gap: 12px 34px; margin-top: 27px; }
+        .effective-dates p { margin: 0; color: #485568; font-size: 14px; }
+        .effective-dates strong { color: var(--ink); }
+        .page-layout {
+            display: grid;
+            grid-template-columns: 235px minmax(0, 1fr);
+            align-items: start;
+            gap: 46px;
+            width: min(var(--content-width), calc(100% - 48px));
+            margin: 48px auto 88px;
         }
-
-        @media (max-width: 768px) {
-            .policy-wrapper {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-
-            .toc {
-                position: static;
-                margin-bottom: 2rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            h3 {
-                font-size: 1.1rem;
-            }
+        .toc-desktop {
+            position: sticky;
+            top: 108px;
+            max-height: calc(100vh - 132px);
+            overflow-y: auto;
+            padding: 20px 16px 18px 0;
+            scrollbar-width: thin;
+        }
+        .toc-title {
+            margin: 0 0 12px;
+            color: #39475b;
+            font-family: 'Manrope', sans-serif;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: .04em;
+            text-transform: uppercase;
+        }
+        .toc-list { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+        .toc-list a {
+            display: block;
+            border-left: 2px solid transparent;
+            padding: 6px 9px 6px 11px;
+            color: #596679;
+            font-size: 12px;
+            line-height: 1.45;
+            text-decoration: none;
+            transition: color .18s ease, background .18s ease, border-color .18s ease;
+        }
+        .toc-list a:hover, .toc-list a.active {
+            border-left-color: var(--blue);
+            background: #eaf1ff;
+            color: var(--blue-dark);
+        }
+        .toc-mobile { display: none; }
+        .policy-content { min-width: 0; }
+        .policy-section {
+            scroll-margin-top: 106px;
+            margin: 0 0 18px;
+            padding: 32px 38px 34px;
+            background: var(--paper);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(27, 43, 64, .035);
+            transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+        }
+        .policy-section:hover { border-color: #c8d5e5; box-shadow: 0 8px 24px rgba(27, 43, 64, .06); }
+        .policy-section h2 {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            margin: 0 0 19px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e8edf2;
+            color: var(--ink);
+            font-size: 22px;
+            font-weight: 800;
+            line-height: 1.35;
+        }
+        .section-number { flex: 0 0 auto; color: var(--blue); font-size: 14px; }
+        .policy-section h3 {
+            margin: 26px 0 9px;
+            color: #29384d;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 1.5;
+        }
+        .policy-section h3:first-of-type { margin-top: 20px; }
+        .policy-section p { margin: 0 0 14px; color: #39475a; }
+        .policy-section p:last-child { margin-bottom: 0; }
+        .policy-section ul { margin: 8px 0 17px; padding-left: 23px; color: #39475a; }
+        .policy-section li { margin: 4px 0; padding-left: 3px; }
+        .policy-section li::marker { color: #4476d8; }
+        .contact-section {
+            border-color: #b9ccef;
+            box-shadow: 0 10px 28px rgba(37, 99, 235, .08);
+        }
+        .contact-details {
+            margin: 22px 0 19px;
+            padding: 20px 22px;
+            border: 1px solid #dce6f6;
+            border-left: 3px solid var(--blue);
+            background: #f7f9fd;
+        }
+        .contact-details p { margin: 0 0 9px; }
+        .contact-details p:last-child { margin-bottom: 0; }
+        .contact-details a { font-weight: 600; }
+        .site-footer { background: var(--navy); color: #d4dbe5; }
+        .footer-inner {
+            display: grid;
+            grid-template-columns: minmax(220px, 1fr) 1fr;
+            align-items: center;
+            gap: 32px;
+            width: min(var(--content-width), calc(100% - 48px));
+            margin: auto;
+            padding: 34px 0;
+        }
+        .footer-brand .brand-logo { width: min(240px, 100%); margin-bottom: 13px; }
+        .footer-brand p { margin: 0; color: #c0cad8; font-size: 14px; }
+        .footer-contact { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px 25px; font-size: 14px; }
+        .footer-contact a { color: #dbe6f7; }
+        .footer-contact a:hover { color: #91b4ff; }
+        .copyright {
+            width: min(var(--content-width), calc(100% - 48px));
+            margin: auto;
+            padding: 15px 0 22px;
+            border-top: 1px solid rgba(255, 255, 255, .12);
+            color: #aeb9c9;
+            font-size: 13px;
+        }
+        .back-to-top {
+            position: fixed;
+            right: 22px;
+            bottom: 22px;
+            z-index: 15;
+            display: grid;
+            width: 46px;
+            height: 46px;
+            place-items: center;
+            border: 1px solid #d7e1ef;
+            border-radius: 50%;
+            background: white;
+            color: var(--blue-dark);
+            box-shadow: 0 5px 20px rgba(23, 34, 53, .14);
+            font-size: 22px;
+            text-decoration: none;
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(8px);
+            transition: opacity .2s ease, transform .2s ease, background .2s ease;
+        }
+        .back-to-top.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+        .back-to-top:hover { background: #edf3ff; }
+        .js-reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+        .js-reveal.is-visible { opacity: 1; transform: translateY(0); }
+        @media (max-width: 900px) {
+            .page-layout { grid-template-columns: minmax(0, 1fr); gap: 18px; margin-top: 28px; }
+            .toc-desktop { display: none; }
+            .toc-mobile { display: block; position: relative; z-index: 5; }
+            .toc-mobile details { border: 1px solid var(--line); border-radius: 7px; background: white; }
+            .toc-mobile summary { cursor: pointer; padding: 13px 16px; color: var(--ink); font-weight: 700; list-style-position: inside; }
+            .toc-mobile .toc-list { max-height: 48vh; overflow: auto; padding: 0 12px 12px; }
+            .toc-mobile .toc-list a { padding-top: 8px; padding-bottom: 8px; font-size: 14px; }
+            .policy-section { padding: 27px 28px 29px; }
+        }
+        @media (max-width: 560px) {
+            body { font-size: 15px; }
+            .header-inner, .hero-inner, .page-layout, .footer-inner, .copyright { width: calc(100% - 32px); }
+            .header-inner { min-height: 70px; gap: 12px; }
+            .brand-logo { width: min(210px, 55vw); }
+            .back-link { gap: 5px; font-size: 12px; }
+            .hero::after { right: 0; width: 3px; }
+            .hero-inner { padding: 53px 0 42px; }
+            h1 { font-size: 42px; }
+            .hero-company { font-size: 18px; }
+            .hero-intro { margin-top: 17px; font-size: 16px; }
+            .effective-dates { display: grid; gap: 7px; margin-top: 21px; }
+            .page-layout { margin-top: 20px; margin-bottom: 56px; }
+            .policy-section { margin-bottom: 13px; padding: 23px 19px 25px; border-radius: 6px; }
+            .policy-section h2 { gap: 8px; font-size: 19px; }
+            .policy-section h3 { font-size: 15px; }
+            .policy-section ul { padding-left: 20px; }
+            .contact-details { padding: 16px; overflow-wrap: anywhere; }
+            .footer-inner { grid-template-columns: 1fr; gap: 20px; padding: 27px 0; }
+            .footer-contact { justify-content: flex-start; display: grid; gap: 8px; }
+            .copyright { padding-top: 13px; }
+            .back-to-top { right: 14px; bottom: 14px; width: 42px; height: 42px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+            .js-reveal { opacity: 1; transform: none; }
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <div class="policy-wrapper">
-            <aside class="toc">
-                <h3>On This Page</h3>
-                <ul>
-                    <li><a href="#intro">Introduction</a></li>
-                    <li><a href="#about">1. About DTAI</a></li>
-                    <li><a href="#info-collect">2. Information We Collect</a></li>
-                    <li><a href="#how-use">3. How We Use Information</a></li>
-                    <li><a href="#legal-basis">4. Legal Basis</a></li>
-                    <li><a href="#crm">5. CRM & Business Contacts</a></li>
-                    <li><a href="#b2b-research">6. B2B Research</a></li>
-                    <li><a href="#sharing">7. Information Sharing</a></li>
-                    <li><a href="#third-party">8. Third-Party Services</a></li>
-                    <li><a href="#ai-tools">9. AI & Automated Tools</a></li>
-                    <li><a href="#security">10. Data Security</a></li>
-                    <li><a href="#retention">11. Data Retention</a></li>
-                    <li><a href="#your-rights">12. Your Rights</a></li>
-                    <li><a href="#children">13. Children's Privacy</a></li>
-                    <li><a href="#international">14. International Transfers</a></li>
-                    <li><a href="#marketing">15. Marketing Communications</a></li>
-                    <li><a href="#changes">16. Changes to Policy</a></li>
-                    <li><a href="#contact">17. Contact & Enquiries</a></li>
-                    <li><a href="#governing">18. Governing Law</a></li>
-                    <li><a href="#disclaimer">19. Disclaimer</a></li>
-                </ul>
-            </aside>
+<body id="top">
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="digitrafficai_website.html" aria-label="DigiTrafficAI home">
+                <img class="brand-logo" src="DigiTrafficAI_Master_Logo.png" alt="DigiTrafficAI - Growth Intelligence. Automated.">
+            </a>
+            <a class="back-link" href="digitrafficai_website.html"><span aria-hidden="true">←</span> Back to website</a>
+        </div>
+    </header>
 
-            <main class="policy-content">
-                <div id="intro" class="privacy-commitment">
-                    <h3>Privacy Commitment</h3>
-                    <p>"DigiTrafficAI respects your privacy and is committed to handling personal information responsibly, transparently, and securely."</p>
-                </div>
+    <section class="hero" aria-labelledby="page-title">
+        <div class="hero-inner">
+            <p class="eyebrow">Information &amp; Privacy</p>
+            <h1 id="page-title">Privacy Policy</h1>
+            <p class="hero-company">DigiTrafficAI (DTAI)</p>
+            <p class="hero-intro">DigiTrafficAI (“DTAI”, “we”, “us”, or “our”) respects your privacy and is committed to handling personal information responsibly, transparently, and securely.</p>
+            <div class="effective-dates">
+                <p><strong>Effective Date:</strong> 03 October 2026</p>
+                <p><strong>Last Updated:</strong> 03 October 2026</p>
+            </div>
+        </div>
+    </section>
 
-                <p><strong>DigiTrafficAI ("DTAI", "we", "us", or "our")</strong> respects your privacy and is committed to handling personal information responsibly, transparently, and securely.</p>
+    <main class="page-layout">
+        <nav class="toc-desktop" aria-label="Table of Contents">
+            <p class="toc-title">On This Page</p>
+            <ol class="toc-list">
+                <li><a href="#section-1">1. About DTAI</a></li>
+                <li><a href="#section-2">2. Information We Collect</a></li>
+                <li><a href="#section-3">3. How We Use Information</a></li>
+                <li><a href="#section-4">4. Legal Basis / Lawful Processing</a></li>
+                <li><a href="#section-5">5. Leads, CRM and Business Contact Information</a></li>
+                <li><a href="#section-6">6. B2B Research and Publicly Available Information</a></li>
+                <li><a href="#section-7">7. Information Sharing</a></li>
+                <li><a href="#section-8">8. Third-Party Services and External Platforms</a></li>
+                <li><a href="#section-9">9. Artificial Intelligence and Automated Tools</a></li>
+                <li><a href="#section-10">10. Data Security</a></li>
+                <li><a href="#section-11">11. Data Retention</a></li>
+                <li><a href="#section-12">12. Your Rights</a></li>
+                <li><a href="#section-13">13. Children's Privacy</a></li>
+                <li><a href="#section-14">14. International Data Transfers</a></li>
+                <li><a href="#section-15">15. Marketing Communications</a></li>
+                <li><a href="#section-16">16. Changes to this Privacy Policy</a></li>
+                <li><a href="#section-17">17. Contact and Privacy Enquiries</a></li>
+                <li><a href="#section-18">18. Governing Law</a></li>
+                <li><a href="#section-19">19. Important Disclaimer</a></li>
+            </ol>
+        </nav>
 
-                <p>This Privacy Policy explains how DTAI collects, uses, stores, shares, and protects information when you visit our website, contact us, request our services, interact with our digital platforms, or otherwise engage with our business activities.</p>
+        <div class="policy-content">
+            <nav class="toc-mobile" aria-label="Table of Contents">
+                <details>
+                    <summary>On This Page</summary>
+                    <ol class="toc-list">
+                        <li><a href="#section-1">1. About DTAI</a></li>
+                        <li><a href="#section-2">2. Information We Collect</a></li>
+                        <li><a href="#section-3">3. How We Use Information</a></li>
+                        <li><a href="#section-4">4. Legal Basis / Lawful Processing</a></li>
+                        <li><a href="#section-5">5. Leads, CRM and Business Contact Information</a></li>
+                        <li><a href="#section-6">6. B2B Research and Publicly Available Information</a></li>
+                        <li><a href="#section-7">7. Information Sharing</a></li>
+                        <li><a href="#section-8">8. Third-Party Services and External Platforms</a></li>
+                        <li><a href="#section-9">9. Artificial Intelligence and Automated Tools</a></li>
+                        <li><a href="#section-10">10. Data Security</a></li>
+                        <li><a href="#section-11">11. Data Retention</a></li>
+                        <li><a href="#section-12">12. Your Rights</a></li>
+                        <li><a href="#section-13">13. Children's Privacy</a></li>
+                        <li><a href="#section-14">14. International Data Transfers</a></li>
+                        <li><a href="#section-15">15. Marketing Communications</a></li>
+                        <li><a href="#section-16">16. Changes to this Privacy Policy</a></li>
+                        <li><a href="#section-17">17. Contact and Privacy Enquiries</a></li>
+                        <li><a href="#section-18">18. Governing Law</a></li>
+                        <li><a href="#section-19">19. Important Disclaimer</a></li>
+                    </ol>
+                </details>
+            </nav>
 
+            <div class="policy-section" aria-label="Privacy Policy introduction">
+                <p>This Privacy Policy explains how DTAI collects, uses, stores, shares, and protects information when you visit our website, contact us, request our services, interact with our digital channels, or otherwise communicate with us.</p>
                 <p>By using the DTAI website or voluntarily providing information to us, you acknowledge the practices described in this Privacy Policy.</p>
+            </div>
 
-                <hr>
-
-                <h2 id="about">1. About DTAI</h2>
+            <section class="policy-section" id="section-1" aria-labelledby="heading-1">
+                <h2 id="heading-1"><span class="section-number">01</span> ABOUT DTAI</h2>
                 <p>DigiTrafficAI is a business-growth platform providing services that may include:</p>
                 <ul>
                     <li>Business consultancy and growth support</li>
@@ -310,427 +395,258 @@
                     <li>Related business-growth and research services</li>
                 </ul>
                 <p>DTAI may also maintain its own digital media channels and conduct research and business intelligence activities.</p>
-                <p>DTAI's internal operating framework treats client information, CRM information, research data, digital accounts, and other business information as controlled information requiring appropriate handling, access controls, and confidentiality.</p>
+                <p>DTAI's internal operating framework treats client information, CRM information, research data, digital accounts, and other business information as controlled information requiring appropriate access and handling.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="info-collect">2. Information We Collect</h2>
+            <section class="policy-section" id="section-2" aria-labelledby="heading-2">
+                <h2 id="heading-2"><span class="section-number">02</span> INFORMATION WE COLLECT</h2>
                 <p>Depending on how you interact with DTAI, we may collect the following categories of information.</p>
-
                 <h3>2.1 Information You Provide Directly</h3>
                 <p>This may include:</p>
                 <ul>
-                    <li>Name</li>
-                    <li>Business or organisation name</li>
-                    <li>Email address</li>
-                    <li>Telephone/mobile number</li>
-                    <li>WhatsApp number</li>
-                    <li>Business address or location information</li>
-                    <li>Website and social-media profile information</li>
-                    <li>Business requirements and objectives</li>
-                    <li>Information submitted through enquiry, contact, consultation, quotation, or service forms</li>
-                    <li>Information provided during meetings, calls, emails, WhatsApp conversations, or other communications</li>
-                    <li>Information required to deliver an agreed service</li>
+                    <li>Name</li><li>Business or organisation name</li><li>Email address</li><li>Telephone/mobile number</li><li>WhatsApp number</li><li>Business address or location information</li><li>Website and social-media profile information</li><li>Business requirements and objectives</li><li>Information submitted through enquiry, contact, consultation, quotation, or service forms</li><li>Information provided during meetings, calls, emails, WhatsApp conversations, or other communications</li><li>Information required to deliver an agreed service</li>
                 </ul>
                 <p>We only request information that is reasonably relevant to the interaction, service, or business purpose involved.</p>
-
                 <h3>2.2 Business and Client Information</h3>
                 <p>If you become a DTAI client, we may process information necessary to provide the agreed service, including:</p>
                 <ul>
-                    <li>Business information</li>
-                    <li>Customer or target-market information supplied by you</li>
-                    <li>Marketing information</li>
-                    <li>Sales and lead information</li>
-                    <li>Business performance information</li>
-                    <li>Website and social-media information</li>
-                    <li>Campaign information</li>
-                    <li>Research requirements</li>
-                    <li>Documents and materials supplied for the project</li>
-                    <li>Access information required for approved service delivery</li>
+                    <li>Business information</li><li>Customer or target-market information supplied by you</li><li>Marketing information</li><li>Sales and lead information</li><li>Business performance information</li><li>Website and social-media information</li><li>Campaign information</li><li>Research requirements</li><li>Documents and materials supplied for the project</li><li>Access information required for approved service delivery</li>
                 </ul>
-                <p>Where you provide information relating to another person, customer, employee, supplier, or business contact, you are responsible for ensuring that you have the appropriate authority to do so and that the information is accurate and lawful to share.</p>
-
+                <p>Where you provide information relating to another person, customer, employee, supplier, or business contact, you are responsible for ensuring that you have the appropriate authority or lawful basis to provide that information to DTAI.</p>
                 <h3>2.3 Information Collected Automatically</h3>
                 <p>When you visit our website, certain technical information may be collected automatically, depending on the technologies implemented on the website.</p>
                 <p>This may include:</p>
                 <ul>
-                    <li>IP address</li>
-                    <li>Browser type</li>
-                    <li>Device type</li>
-                    <li>Operating system</li>
-                    <li>Approximate location derived from technical information</li>
-                    <li>Pages visited</li>
-                    <li>Referring website</li>
-                    <li>Date and time of access</li>
-                    <li>Website interaction and usage information</li>
-                    <li>Technical and diagnostic information</li>
+                    <li>IP address</li><li>Browser type</li><li>Device type</li><li>Operating system</li><li>Approximate location derived from technical information</li><li>Pages visited</li><li>Referring website</li><li>Date and time of access</li><li>Website interaction and usage information</li><li>Technical and diagnostic information</li>
                 </ul>
                 <p>This information may be used for website security, performance, analytics, troubleshooting, and improvement.</p>
-
                 <h3>2.4 Cookies and Similar Technologies</h3>
                 <p>DTAI may use cookies, pixels, analytics tools, or similar technologies to:</p>
                 <ul>
-                    <li>Operate and secure the website</li>
-                    <li>Remember preferences</li>
-                    <li>Understand website usage</li>
-                    <li>Measure traffic and performance</li>
-                    <li>Improve website functionality</li>
-                    <li>Understand marketing effectiveness, where applicable</li>
+                    <li>Operate and secure the website</li><li>Remember preferences</li><li>Understand website usage</li><li>Measure traffic and performance</li><li>Improve website functionality</li><li>Understand marketing effectiveness, where applicable</li>
                 </ul>
                 <p>Where required, appropriate consent or controls will be provided.</p>
                 <p>You may also be able to manage cookies through your browser or applicable device settings. Disabling certain cookies may affect website functionality.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="how-use">3. How We Use Information</h2>
+            <section class="policy-section" id="section-3" aria-labelledby="heading-3">
+                <h2 id="heading-3"><span class="section-number">03</span> HOW WE USE INFORMATION</h2>
                 <p>DTAI may use information for legitimate business purposes, including:</p>
-
                 <h3>Service Delivery</h3>
-                <ul>
-                    <li>Responding to enquiries</li>
-                    <li>Understanding business requirements</li>
-                    <li>Preparing proposals and quotations</li>
-                    <li>Delivering agreed services</li>
-                    <li>Managing projects and communications</li>
-                    <li>Providing reports, recommendations, research, or other deliverables</li>
-                </ul>
-
+                <ul><li>Responding to enquiries</li><li>Understanding business requirements</li><li>Preparing proposals and quotations</li><li>Delivering agreed services</li><li>Managing projects and communications</li><li>Providing reports, recommendations, research, or other deliverables</li></ul>
                 <h3>Business Development</h3>
-                <ul>
-                    <li>Managing leads and prospects</li>
-                    <li>Following up on enquiries</li>
-                    <li>Understanding customer requirements</li>
-                    <li>Maintaining our CRM and commercial records</li>
-                    <li>Communicating relevant DTAI services</li>
-                </ul>
-
+                <ul><li>Managing leads and prospects</li><li>Following up on enquiries</li><li>Understanding customer requirements</li><li>Maintaining our CRM and commercial records</li><li>Communicating relevant DTAI services</li></ul>
                 <h3>Research and Intelligence</h3>
-                <p>DTAI provides market research and B2B intelligence services. Information may therefore be collected, organised, analysed, and presented for legitimate research and commercial purposes, subject to applicable law and the policy constraints set by the source or client.</p>
+                <p>DTAI provides market research and B2B intelligence services. Information may therefore be collected, organised, analysed, and presented for legitimate research and commercial purposes.</p>
                 <p>Our research processes are designed to distinguish factual evidence from interpretation and recommendation.</p>
-
                 <h3>Website and Marketing</h3>
                 <p>We may use information to:</p>
-                <ul>
-                    <li>Improve our website</li>
-                    <li>Improve our services</li>
-                    <li>Analyse website and marketing performance</li>
-                    <li>Develop content</li>
-                    <li>Understand audience interests</li>
-                    <li>Measure enquiries and lead generation</li>
-                    <li>Improve our digital presence</li>
-                </ul>
-
+                <ul><li>Improve our website</li><li>Improve our services</li><li>Analyse website and marketing performance</li><li>Develop content</li><li>Understand audience interests</li><li>Measure enquiries and lead generation</li><li>Improve our digital presence</li></ul>
                 <h3>Administration and Compliance</h3>
                 <p>Information may also be used to:</p>
-                <ul>
-                    <li>Maintain business records</li>
-                    <li>Manage contracts and commercial documentation</li>
-                    <li>Process payments and invoices</li>
-                    <li>Prevent misuse or fraud</li>
-                    <li>Protect our systems</li>
-                    <li>Maintain security</li>
-                    <li>Meet applicable legal, regulatory, or professional obligations</li>
-                    <li>Resolve disputes</li>
-                    <li>Enforce agreements</li>
-                </ul>
-
+                <ul><li>Maintain business records</li><li>Manage contracts and commercial documentation</li><li>Process payments and invoices</li><li>Prevent misuse or fraud</li><li>Protect our systems</li><li>Maintain security</li><li>Meet applicable legal, regulatory, or professional obligations</li><li>Resolve disputes</li><li>Enforce agreements</li></ul>
                 <h3>Internal Business Operations</h3>
                 <p>DTAI may use information to improve its internal operating systems, service quality, research capability, documentation, and business processes.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="legal-basis">4. Legal Basis / Lawful Processing</h2>
+            <section class="policy-section" id="section-4" aria-labelledby="heading-4">
+                <h2 id="heading-4"><span class="section-number">04</span> LEGAL BASIS / LAWFUL PROCESSING</h2>
                 <p>Depending on the circumstances and applicable law, DTAI may process personal information based on one or more lawful grounds, including:</p>
-                <ul>
-                    <li>Your consent</li>
-                    <li>Taking steps at your request before entering into an agreement</li>
-                    <li>Performing a contract or providing a requested service</li>
-                    <li>Compliance with a legal obligation</li>
-                    <li>Legitimate business purposes where permitted by applicable law</li>
-                    <li>Protection of our rights, systems, property, or business interests</li>
-                </ul>
+                <ul><li>Your consent</li><li>Taking steps at your request before entering into an agreement</li><li>Performing a contract or providing a requested service</li><li>Compliance with a legal obligation</li><li>Legitimate business purposes where permitted by applicable law</li><li>Protection of our rights, systems, property, or business interests</li></ul>
                 <p>Where consent is required by applicable law, DTAI will seek consent through an appropriate mechanism.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="crm">5. Leads, CRM and Business Contact Information</h2>
+            <section class="policy-section" id="section-5" aria-labelledby="heading-5">
+                <h2 id="heading-5"><span class="section-number">05</span> LEADS, CRM AND BUSINESS CONTACT INFORMATION</h2>
                 <p>DTAI maintains commercial records and may operate a CRM containing information about prospects, clients, business contacts, and commercial opportunities.</p>
                 <p>CRM information may include:</p>
-                <ul>
-                    <li>Contact details</li>
-                    <li>Company information</li>
-                    <li>Source of the lead</li>
-                    <li>Communication history</li>
-                    <li>Business requirements</li>
-                    <li>Qualification information</li>
-                    <li>Follow-up dates</li>
-                    <li>Proposal information</li>
-                    <li>Engagement status</li>
-                    <li>Commercial outcomes</li>
-                </ul>
+                <ul><li>Contact details</li><li>Company information</li><li>Source of the lead</li><li>Communication history</li><li>Business requirements</li><li>Qualification information</li><li>Follow-up dates</li><li>Proposal information</li><li>Engagement status</li><li>Commercial outcomes</li></ul>
                 <p>DTAI's operating framework identifies the CRM as the commercial source of truth and requires controlled access, data quality, and traceability.</p>
                 <p>We do not intend to sell personal information contained in our CRM to unrelated third parties.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="b2b-research">6. B2B Research and Publicly Available Information</h2>
+            <section class="policy-section" id="section-6" aria-labelledby="heading-6">
+                <h2 id="heading-6"><span class="section-number">06</span> B2B RESEARCH AND PUBLICLY AVAILABLE INFORMATION</h2>
                 <p>DTAI may conduct B2B, market, competitor, customer, and prospect research as part of its services.</p>
                 <p>Where research involves publicly available business information, DTAI may collect and organise information such as:</p>
-                <ul>
-                    <li>Business name</li>
-                    <li>Public business contact details</li>
-                    <li>Website</li>
-                    <li>Public social-media profiles</li>
-                    <li>Public business category</li>
-                    <li>Publicly stated products or services</li>
-                    <li>Public business location</li>
-                    <li>Publicly available business information relevant to the research assignment</li>
-                </ul>
-                <p>Such information is used for legitimate research, business-development, marketing, or client-service purposes, subject to applicable law and the restrictions applicable to the source, client brief, or assignment.</p>
+                <ul><li>Business name</li><li>Public business contact details</li><li>Website</li><li>Public social-media profiles</li><li>Public business category</li><li>Publicly stated products or services</li><li>Public business location</li><li>Publicly available business information relevant to the research assignment</li></ul>
+                <p>Such information is used for legitimate research, business-development, marketing, or client-service purposes, subject to applicable law and the restrictions applicable to the source.</p>
                 <p>DTAI does not represent that information obtained from public sources is always complete, current, or accurate.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="sharing">7. Information Sharing</h2>
+            <section class="policy-section" id="section-7" aria-labelledby="heading-7">
+                <h2 id="heading-7"><span class="section-number">07</span> INFORMATION SHARING</h2>
                 <p>DTAI may share information where reasonably necessary for legitimate business purposes, including with:</p>
-
                 <h3>Service Providers</h3>
                 <p>We may use trusted third-party providers for services such as:</p>
-                <ul>
-                    <li>Website hosting</li>
-                    <li>Cloud storage</li>
-                    <li>CRM</li>
-                    <li>Email</li>
-                    <li>Communication</li>
-                    <li>Analytics</li>
-                    <li>Payment processing</li>
-                    <li>Content production</li>
-                    <li>Technology</li>
-                    <li>Business operations</li>
-                </ul>
+                <ul><li>Website hosting</li><li>Cloud storage</li><li>CRM</li><li>Email</li><li>Communication</li><li>Analytics</li><li>Payment processing</li><li>Content production</li><li>Technology</li><li>Business operations</li></ul>
                 <p>Such providers may process information on our behalf according to their own applicable terms and privacy practices.</p>
-
                 <h3>Freelancers and Specialists</h3>
                 <p>DTAI may engage approved freelancers or specialists to perform defined tasks.</p>
                 <p>Access is intended to be limited to information reasonably necessary for the assigned work.</p>
                 <p>DTAI's internal operating rules prohibit uncontrolled client-file, account, financial, or social-media access by freelancers and require controlled briefs and access.</p>
-
                 <h3>Legal or Regulatory Requirements</h3>
                 <p>We may disclose information where reasonably necessary to:</p>
-                <ul>
-                    <li>Comply with applicable law</li>
-                    <li>Respond to lawful requests</li>
-                    <li>Protect rights or property</li>
-                    <li>Investigate suspected misuse or fraud</li>
-                    <li>Protect users, clients, employees, or the public</li>
-                    <li>Establish, exercise, or defend legal claims</li>
-                </ul>
-
+                <ul><li>Comply with applicable law</li><li>Respond to lawful requests</li><li>Protect rights or property</li><li>Investigate suspected misuse or fraud</li><li>Protect users, clients, employees, or the public</li><li>Establish, exercise, or defend legal claims</li></ul>
                 <h3>Business Transactions</h3>
-                <p>If DTAI undergoes a restructuring, merger, acquisition, sale, transfer, or similar business transaction, information may be transferred as part of that transaction, subject to applicable law and confidentiality obligations.</p>
+                <p>If DTAI undergoes a restructuring, merger, acquisition, sale, transfer, or similar business transaction, information may be transferred as part of that transaction, subject to applicable law.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="third-party">8. Third-Party Services and External Platforms</h2>
-                <p>DTAI may use third-party platforms and services to operate its website, communicate with clients, manage information, deliver services, conduct analytics, or provide other business support.</p>
+            <section class="policy-section" id="section-8" aria-labelledby="heading-8">
+                <h2 id="heading-8"><span class="section-number">08</span> THIRD-PARTY SERVICES AND EXTERNAL PLATFORMS</h2>
+                <p>DTAI may use third-party platforms and services to operate its website, communicate with clients, manage information, deliver services, conduct analytics, or provide other business functions.</p>
                 <p>Examples may include:</p>
-                <ul>
-                    <li>Cloud platforms</li>
-                    <li>CRM systems</li>
-                    <li>Email providers</li>
-                    <li>Messaging platforms</li>
-                    <li>Social-media platforms</li>
-                    <li>Analytics providers</li>
-                    <li>Payment providers</li>
-                    <li>AI and productivity tools</li>
-                    <li>Website and hosting providers</li>
-                </ul>
+                <ul><li>Cloud platforms</li><li>CRM systems</li><li>Email providers</li><li>Messaging platforms</li><li>Social-media platforms</li><li>Analytics providers</li><li>Payment providers</li><li>AI and productivity tools</li><li>Website and hosting providers</li></ul>
                 <p>Your interaction with those third-party services may also be governed by their respective privacy policies and terms.</p>
                 <p>DTAI does not control the privacy practices of independent third-party platforms.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="ai-tools">9. Artificial Intelligence and Automated Tools</h2>
+            <section class="policy-section" id="section-9" aria-labelledby="heading-9">
+                <h2 id="heading-9"><span class="section-number">09</span> ARTIFICIAL INTELLIGENCE AND AUTOMATED TOOLS</h2>
                 <p>DTAI may use AI-assisted tools and software to support activities such as:</p>
-                <ul>
-                    <li>Research</li>
-                    <li>Content development</li>
-                    <li>Business analysis</li>
-                    <li>Productivity</li>
-                    <li>Workflow development</li>
-                    <li>Data organisation</li>
-                    <li>Drafting</li>
-                    <li>Internal business operations</li>
-                </ul>
+                <ul><li>Research</li><li>Content development</li><li>Business analysis</li><li>Productivity</li><li>Workflow development</li><li>Data organisation</li><li>Drafting</li><li>Internal business operations</li></ul>
                 <p>DTAI's use of AI tools is subject to the information-access and approval controls applicable to the relevant activity.</p>
                 <p>We do not intentionally provide sensitive or confidential client information to an AI tool unless such use is authorised, necessary for the service, and appropriately controlled.</p>
                 <p>Where a third-party AI service processes information, its own terms and privacy practices may also apply.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="security">10. Data Security</h2>
+            <section class="policy-section" id="section-10" aria-labelledby="heading-10">
+                <h2 id="heading-10"><span class="section-number">10</span> DATA SECURITY</h2>
                 <p>DTAI takes reasonable technical and organisational measures designed to protect information against:</p>
-                <ul>
-                    <li>Unauthorised access</li>
-                    <li>Unauthorised disclosure</li>
-                    <li>Loss</li>
-                    <li>Misuse</li>
-                    <li>Alteration</li>
-                    <li>Destruction</li>
-                    <li>Unauthorised processing</li>
-                </ul>
+                <ul><li>Unauthorised access</li><li>Unauthorised disclosure</li><li>Loss</li><li>Misuse</li><li>Alteration</li><li>Destruction</li><li>Unauthorised processing</li></ul>
                 <p>Security measures may include:</p>
-                <ul>
-                    <li>Access controls</li>
-                    <li>Role-based access</li>
-                    <li>Controlled sharing</li>
-                    <li>Password and account protections</li>
-                    <li>Limited third-party access</li>
-                    <li>Backup and export procedures</li>
-                    <li>Document and version control</li>
-                    <li>Review of external access</li>
-                    <li>Appropriate operational procedures</li>
-                </ul>
+                <ul><li>Access controls</li><li>Role-based access</li><li>Controlled sharing</li><li>Password and account protections</li><li>Limited third-party access</li><li>Backup and export procedures</li><li>Document and version control</li><li>Review of external access</li><li>Appropriate operational procedures</li></ul>
                 <p>However, no internet-based system, electronic transmission, or storage method can be guaranteed to be completely secure.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="retention">11. Data Retention</h2>
+            <section class="policy-section" id="section-11" aria-labelledby="heading-11">
+                <h2 id="heading-11"><span class="section-number">11</span> DATA RETENTION</h2>
                 <p>DTAI retains information only for as long as reasonably necessary for the purposes for which it was collected, including:</p>
-                <ul>
-                    <li>Providing services</li>
-                    <li>Maintaining business records</li>
-                    <li>Managing client relationships</li>
-                    <li>Resolving disputes</li>
-                    <li>Maintaining financial and accounting records</li>
-                    <li>Meeting legal or regulatory requirements</li>
-                    <li>Protecting legitimate business interests</li>
-                    <li>Maintaining appropriate evidence and audit records</li>
-                </ul>
+                <ul><li>Providing services</li><li>Maintaining business records</li><li>Managing client relationships</li><li>Resolving disputes</li><li>Maintaining financial and accounting records</li><li>Meeting legal or regulatory requirements</li><li>Protecting legitimate business interests</li><li>Maintaining appropriate evidence and audit records</li></ul>
                 <p>Retention periods may differ depending on the type of information and the purpose for which it is held.</p>
                 <p>Where information is no longer reasonably required, DTAI may delete, anonymise, archive, or otherwise dispose of it subject to applicable legal and operational requirements.</p>
+            </section>
 
-                <hr>
+            <section class="policy-section" id="section-12" aria-labelledby="heading-12">
+                <h2 id="heading-12"><span class="section-number">12</span> YOUR RIGHTS</h2>
+                <p>Subject to applicable law, you may have rights relating to your personal information, which may include the right to:</p>
+                <ul><li>Request information about how your personal information is processed</li><li>Request access to certain personal information</li><li>Request correction of inaccurate or incomplete information</li><li>Request deletion or erasure where legally applicable</li><li>Withdraw consent where processing is based on consent</li><li>Raise an objection or restriction where applicable</li><li>Request information regarding certain disclosures or processing activities</li><li>Submit a privacy-related complaint or grievance</li></ul>
+                <p>Some rights may be subject to legal exceptions, contractual requirements, legitimate interests, record-retention obligations, or other applicable restrictions.</p>
+                <p>To exercise a privacy right, contact us using the details provided in Section 17.</p>
+            </section>
 
-                <h2 id="your-rights">12. Your Rights</h2>
-                <div class="your-rights-card">
-                    <p><strong>Subject to applicable law, you may have rights relating to your personal information, which may include the right to:</strong></p>
-                    <ul>
-                        <li>Request information about how your personal information is processed</li>
-                        <li>Request access to certain personal information</li>
-                        <li>Request correction of inaccurate or incomplete information</li>
-                        <li>Request deletion or erasure where legally applicable</li>
-                        <li>Withdraw consent where processing is based on consent</li>
-                        <li>Raise an objection or restriction where applicable</li>
-                        <li>Request information regarding certain disclosures or processing activities</li>
-                        <li>Submit a privacy-related complaint or grievance</li>
-                    </ul>
-                    <p><strong>Some rights may be subject to legal exceptions, contractual requirements, legitimate interests, record-retention obligations, or other applicable restrictions.</strong></p>
-                    <p><strong>To exercise a privacy right, contact us using the details provided in Section 17.</strong></p>
-                </div>
-
-                <hr>
-
-                <h2 id="children">13. Children's Privacy</h2>
+            <section class="policy-section" id="section-13" aria-labelledby="heading-13">
+                <h2 id="heading-13"><span class="section-number">13</span> CHILDREN'S PRIVACY</h2>
                 <p>DTAI's services are primarily intended for businesses, entrepreneurs, professionals, and adults.</p>
                 <p>We do not knowingly seek to collect personal information from children where such collection is prohibited by applicable law.</p>
                 <p>If you believe that a child has provided personal information to DTAI without appropriate permission, please contact us so that we can review and take appropriate action.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="international">14. International Data Transfers</h2>
+            <section class="policy-section" id="section-14" aria-labelledby="heading-14">
+                <h2 id="heading-14"><span class="section-number">14</span> INTERNATIONAL DATA TRANSFERS</h2>
                 <p>DTAI may use service providers, platforms, or technology infrastructure located in countries other than India.</p>
-                <p>Where personal information is transferred or processed internationally, DTAI will take reasonable steps to ensure that such processing is conducted in accordance with applicable law and appropriate safeguards.</p>
+                <p>Where personal information is transferred or processed internationally, DTAI will take reasonable steps to ensure that such processing is conducted in accordance with applicable law and appropriate contractual or organisational safeguards.</p>
                 <p>The availability and legal requirements for international transfers may vary depending on the service provider and applicable jurisdiction.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="marketing">15. Marketing Communications</h2>
+            <section class="policy-section" id="section-15" aria-labelledby="heading-15">
+                <h2 id="heading-15"><span class="section-number">15</span> MARKETING COMMUNICATIONS</h2>
                 <p>Where permitted by applicable law, DTAI may contact you regarding:</p>
-                <ul>
-                    <li>Services you have requested</li>
-                    <li>Enquiries you have submitted</li>
-                    <li>Existing business relationships</li>
-                    <li>Relevant DTAI services</li>
-                    <li>Business information or educational content</li>
-                    <li>Offers, announcements, or updates</li>
-                </ul>
+                <ul><li>Services you have requested</li><li>Enquiries you have submitted</li><li>Existing business relationships</li><li>Relevant DTAI services</li><li>Business information or educational content</li><li>Offers, announcements, or updates</li></ul>
                 <p>You may request that we stop sending promotional communications.</p>
                 <p>However, transactional, service-related, security-related, or legally required communications may continue where necessary.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="changes">16. Changes to This Privacy Policy</h2>
+            <section class="policy-section" id="section-16" aria-labelledby="heading-16">
+                <h2 id="heading-16"><span class="section-number">16</span> CHANGES TO THIS PRIVACY POLICY</h2>
                 <p>DTAI may update this Privacy Policy from time to time to reflect:</p>
-                <ul>
-                    <li>Changes to our services</li>
-                    <li>Changes to technology</li>
-                    <li>Changes to our information practices</li>
-                    <li>Changes to applicable law</li>
-                    <li>Changes to business operations</li>
-                </ul>
-                <p>The updated version will be published on this website with a revised "Last Updated" date.</p>
+                <ul><li>Changes to our services</li><li>Changes to technology</li><li>Changes to our information practices</li><li>Changes to applicable law</li><li>Changes to business operations</li></ul>
+                <p>The updated version will be published on this website with a revised “Last Updated” date.</p>
                 <p>Where required by applicable law, we will provide additional notice or obtain consent for material changes.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="contact">17. Contact and Privacy Enquiries</h2>
-                <div class="contact-card">
-                    <h4>DigiTrafficAI (DTAI)</h4>
-                    <p><strong>Email:</strong> <a href="mailto:sameerayasmeenbca@gmail.com">sameerayasmeenbca@gmail.com</a></p>
-                    <p><strong>Website:</strong> <a href="https://digitrafficai.com" target="_blank">https://digitrafficai.com</a></p>
-                    <p><strong>Business Address:</strong> [INSERT OFFICIAL DTAI BUSINESS ADDRESS]</p>
+            <section class="policy-section contact-section" id="section-17" aria-labelledby="heading-17">
+                <h2 id="heading-17"><span class="section-number">17</span> CONTACT AND PRIVACY ENQUIRIES</h2>
+                <p>If you have a question, request, complaint, or concern regarding this Privacy Policy or the handling of your personal information, please contact:</p>
+                <div class="contact-details">
+                    <p><strong>DigiTrafficAI (DTAI)</strong></p>
+                    <p><strong>Email:</strong> <a href="mailto:cmo.dtai@outlook.com">cmo.dtai@outlook.com</a></p>
+                    <p><strong>Website:</strong> <a href="https://digitrafficai.com/" target="_blank" rel="noopener noreferrer">https://digitrafficai.com</a></p>
+                    <p><strong>Business Address:</strong> 44/7, Oomar Road, Flower Bazar, Ambur, Tamil Nadu 635802</p>
                     <p><strong>Privacy Contact / Grievance Contact:</strong> DigiTrafficAI Privacy Team</p>
-                    <p><strong>Note:</strong> When contacting us, please provide sufficient information for us to identify the relevant request and respond appropriately.</p>
                 </div>
+                <p>When contacting us, please provide sufficient information for us to identify the relevant request and respond appropriately.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="governing">18. Governing Law</h2>
+            <section class="policy-section" id="section-18" aria-labelledby="heading-18">
+                <h2 id="heading-18"><span class="section-number">18</span> GOVERNING LAW</h2>
                 <p>This Privacy Policy shall be interpreted in accordance with the applicable laws and regulations governing DTAI and the relevant processing of personal information.</p>
                 <p>Where applicable, disputes relating to this Privacy Policy shall be subject to the jurisdiction specified in DTAI's applicable contractual terms.</p>
+            </section>
 
-                <hr>
-
-                <h2 id="disclaimer">19. Important Disclaimer</h2>
+            <section class="policy-section" id="section-19" aria-labelledby="heading-19">
+                <h2 id="heading-19"><span class="section-number">19</span> IMPORTANT DISCLAIMER</h2>
                 <p>This Privacy Policy is intended to describe DTAI's general privacy and information-handling practices.</p>
                 <p>It does not create rights or obligations beyond those required under applicable law or expressly agreed under a separate contract.</p>
-                <p>Where a client agreement, data-processing arrangement, or legally binding document contains specific provisions regarding personal information, those provisions may apply in addition to this Privacy Policy.</p>
-            </main>
+                <p>Where a client agreement, data-processing arrangement, or other legally binding document contains specific provisions regarding personal information, those provisions may apply in addition to this Privacy Policy.</p>
+            </section>
         </div>
-    </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img class="brand-logo" src="DigiTrafficAI_Master_Logo.png" alt="DigiTrafficAI - Growth Intelligence. Automated.">
+                <p>DigiTrafficAI (DTAI)</p>
+            </div>
+            <div class="footer-contact">
+                <a href="mailto:cmo.dtai@outlook.com">cmo.dtai@outlook.com</a>
+                <a href="https://digitrafficai.com/" target="_blank" rel="noopener noreferrer">digitrafficai.com</a>
+            </div>
+        </div>
+        <div class="copyright">© DigiTrafficAI (DTAI). All rights reserved.</div>
+    </footer>
+
+    <a class="back-to-top" href="#top" aria-label="Back to top" title="Back to top">↑</a>
 
     <script>
-        document.querySelectorAll('.toc a').forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                targetElement.scrollIntoView({ behavior: 'smooth' });
+        const sectionElements = [...document.querySelectorAll('.policy-section')];
+        const tocLinks = [...document.querySelectorAll('.toc-list a')];
+        const backToTop = document.querySelector('.back-to-top');
+        const mobileToc = document.querySelector('.toc-mobile details');
 
-                document.querySelectorAll('.toc a').forEach(a => a.classList.remove('active'));
-                link.classList.add('active');
+        if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.05 });
+            sectionElements.forEach(section => {
+                section.classList.add('js-reveal');
+                revealObserver.observe(section);
             });
-        });
+        }
+
+        if ('IntersectionObserver' in window) {
+            const activeObserver = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    tocLinks.forEach(link => link.classList.toggle('active', link.hash === `#${entry.target.id}`));
+                });
+            }, { rootMargin: '-18% 0px -72% 0px' });
+            sectionElements.forEach(section => activeObserver.observe(section));
+        }
+
+        tocLinks.forEach(link => link.addEventListener('click', () => {
+            if (mobileToc) mobileToc.open = false;
+        }));
 
         window.addEventListener('scroll', () => {
-            const sections = document.querySelectorAll('h2');
-            let currentSection = '';
-
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (window.pageYOffset >= sectionTop - 100) {
-                    currentSection = section.getAttribute('id');
-                }
-            });
-
-            document.querySelectorAll('.toc a').forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + currentSection) {
-                    link.classList.add('active');
-                }
-            });
-        });
+            backToTop.classList.toggle('visible', window.scrollY > 500);
+        }, { passive: true });
     </script>
 </body>
 </html>

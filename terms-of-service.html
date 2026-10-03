@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terms of Service for DigiTrafficAI (DTAI), effective 03 October 2026.">
+    <meta name="theme-color" content="#101827">
+    <title>Terms of Service | DigiTrafficAI (DTAI)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #172235;
+            --muted: #5b6677;
+            --blue: #2563eb;
+            --blue-dark: #1747a6;
+            --line: #dfe5ec;
+            --paper: #ffffff;
+            --canvas: #f4f6f8;
+            --navy: #101827;
+            --content-width: 1240px;
+        }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: 94px; }
+        body {
+            margin: 0;
+            background: var(--canvas);
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--blue-dark); text-underline-offset: 3px; }
+        a:hover { color: var(--blue); }
+        a:focus-visible, summary:focus-visible { outline: 3px solid #7aa7ff; outline-offset: 3px; }
+        .site-header { position: sticky; top: 0; z-index: 20; background: rgba(16, 24, 39, .97); border-bottom: 1px solid rgba(255,255,255,.1); box-shadow: 0 5px 20px rgba(16,24,39,.12); }
+        .header-inner { width: min(var(--content-width), calc(100% - 48px)); min-height: 82px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+        .brand-logo { display: block; width: min(260px, 58vw); height: auto; }
+        .back-link { display: inline-flex; align-items: center; gap: 9px; color: #f4f7fb; font-size: 14px; font-weight: 600; text-decoration: none; transition: color .2s ease, transform .2s ease; white-space: nowrap; }
+        .back-link:hover { color: #8db3ff; transform: translateX(-2px); }
+        .back-link span { color: #78a5ff; font-size: 19px; }
+        .hero { position: relative; overflow: hidden; background: var(--paper); border-bottom: 1px solid var(--line); }
+        .hero::after { position: absolute; top: 0; right: max(4vw, calc((100vw - var(--content-width)) / 2)); width: 5px; height: 100%; background: var(--blue); content: ''; }
+        .hero-inner { width: min(var(--content-width), calc(100% - 48px)); margin: 0 auto; padding: 74px 0 58px; }
+        .eyebrow { margin: 0 0 15px; color: var(--blue-dark); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+        h1 { max-width: 800px; margin: 0; color: var(--ink); font-size: clamp(40px, 6vw, 66px); font-weight: 800; line-height: 1.1; }
+        .hero-company { margin: 10px 0 0; color: #39475b; font-size: 21px; font-weight: 600; }
+        .hero-intro { max-width: 760px; margin: 23px 0 0; color: var(--muted); font-size: 18px; line-height: 1.7; }
+        .effective-dates { display: flex; flex-wrap: wrap; gap: 12px 34px; margin-top: 27px; }
+        .effective-dates p { margin: 0; color: #485568; font-size: 14px; }
+        .effective-dates strong { color: var(--ink); }
+        .page-layout { display: grid; grid-template-columns: 235px minmax(0, 1fr); align-items: start; gap: 46px; width: min(var(--content-width), calc(100% - 48px)); margin: 48px auto 88px; }
+        .toc-desktop { position: sticky; top: 108px; max-height: calc(100vh - 132px); overflow-y: auto; padding: 20px 16px 18px 0; scrollbar-width: thin; }
+        .toc-title { margin: 0 0 12px; color: #39475b; font-family: 'Manrope', sans-serif; font-size: 13px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+        .toc-list { display: grid; gap: 2px; margin: 0; padding: 0; list-style: none; }
+        .toc-list a { display: block; border-left: 2px solid transparent; padding: 6px 9px 6px 11px; color: #596679; font-size: 12px; line-height: 1.45; text-decoration: none; transition: color .18s ease, background .18s ease, border-color .18s ease; }
+        .toc-list a:hover, .toc-list a.active { border-left-color: var(--blue); background: #eaf1ff; color: var(--blue-dark); }
+        .toc-mobile { display: none; }
+        .terms-content { min-width: 0; }
+        .terms-section { scroll-margin-top: 106px; margin: 0 0 18px; padding: 32px 38px 34px; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 4px 16px rgba(27,43,64,.035); transition: border-color .2s ease, box-shadow .2s ease; }
+        .terms-section:hover { border-color: #c8d5e5; box-shadow: 0 8px 24px rgba(27,43,64,.06); }
+        .terms-section h2 { display: flex; align-items: baseline; gap: 12px; margin: 0 0 19px; padding-bottom: 15px; border-bottom: 1px solid #e8edf2; color: var(--ink); font-size: 22px; font-weight: 800; line-height: 1.35; }
+        .section-number { flex: 0 0 auto; color: var(--blue); font-size: 14px; }
+        .terms-section p { margin: 0 0 14px; color: #39475a; }
+        .terms-section p:last-child { margin-bottom: 0; }
+        .terms-section h3 { margin: 26px 0 9px; color: #29384d; font-size: 16px; font-weight: 800; line-height: 1.5; }
+        .terms-section h3:first-of-type { margin-top: 20px; }
+        .terms-section ul { margin: 8px 0 17px; padding-left: 23px; color: #39475a; }
+        .terms-section li { margin: 4px 0; padding-left: 3px; }
+        .terms-section li::marker { color: #4476d8; }
+        .contact-section { border-color: #b9ccef; box-shadow: 0 10px 28px rgba(37,99,235,.08); }
+        .contact-details { margin: 22px 0 19px; padding: 20px 22px; border: 1px solid #dce6f6; border-left: 3px solid var(--blue); background: #f7f9fd; }
+        .contact-details p { margin: 0 0 9px; }
+        .contact-details p:last-child { margin-bottom: 0; }
+        .contact-details a { font-weight: 600; }
+        .site-footer { background: var(--navy); color: #d4dbe5; }
+        .footer-inner { display: grid; grid-template-columns: minmax(230px, 1fr) 1fr; align-items: center; gap: 30px; width: min(var(--content-width), calc(100% - 48px)); margin: auto; padding: 34px 0; }
+        .footer-brand .brand-logo { width: min(240px, 100%); margin-bottom: 13px; }
+        .footer-brand p { margin: 0 0 7px; color: #c0cad8; font-size: 14px; }
+        .footer-contact { display: grid; justify-items: end; gap: 8px; font-size: 14px; }
+        .footer-contact a { color: #dbe6f7; }
+        .footer-contact a:hover { color: #91b4ff; }
+        .copyright { width: min(var(--content-width), calc(100% - 48px)); margin: auto; padding: 15px 0 22px; border-top: 1px solid rgba(255,255,255,.12); color: #aeb9c9; font-size: 13px; }
+        .back-to-top { position: fixed; right: 22px; bottom: 22px; z-index: 15; display: grid; width: 46px; height: 46px; place-items: center; border: 1px solid #d7e1ef; border-radius: 50%; background: white; color: var(--blue-dark); box-shadow: 0 5px 20px rgba(23,34,53,.14); font-size: 22px; text-decoration: none; opacity: 0; pointer-events: none; transform: translateY(8px); transition: opacity .2s ease, transform .2s ease, background .2s ease; }
+        .back-to-top.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+        .back-to-top:hover { background: #edf3ff; }
+        .js-reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+        .js-reveal.is-visible { opacity: 1; transform: translateY(0); }
+        @media (max-width: 900px) {
+            .page-layout { grid-template-columns: minmax(0,1fr); gap: 18px; margin-top: 28px; }
+            .toc-desktop { display: none; }
+            .toc-mobile { display: block; position: relative; z-index: 5; }
+            .toc-mobile details { border: 1px solid var(--line); border-radius: 7px; background: white; }
+            .toc-mobile summary { cursor: pointer; padding: 13px 16px; color: var(--ink); font-weight: 700; list-style-position: inside; }
+            .toc-mobile .toc-list { max-height: 48vh; overflow: auto; padding: 0 12px 12px; }
+            .toc-mobile .toc-list a { padding-top: 8px; padding-bottom: 8px; font-size: 14px; }
+            .terms-section { padding: 27px 28px 29px; }
+        }
+        @media (max-width: 560px) {
+            body { font-size: 15px; }
+            .header-inner, .hero-inner, .page-layout, .footer-inner, .copyright { width: calc(100% - 32px); }
+            .header-inner { min-height: 70px; gap: 12px; }
+            .brand-logo { width: min(210px, 55vw); }
+            .back-link { gap: 5px; font-size: 12px; }
+            .hero::after { right: 0; width: 3px; }
+            .hero-inner { padding: 53px 0 42px; }
+            h1 { font-size: 42px; }
+            .hero-company { font-size: 18px; }
+            .hero-intro { margin-top: 17px; font-size: 16px; }
+            .effective-dates { display: grid; gap: 7px; margin-top: 21px; }
+            .page-layout { margin-top: 20px; margin-bottom: 56px; }
+            .terms-section { margin-bottom: 13px; padding: 23px 19px 25px; border-radius: 6px; }
+            .terms-section h2 { gap: 8px; font-size: 19px; }
+            .terms-section h3 { font-size: 15px; }
+            .terms-section ul { padding-left: 20px; }
+            .contact-details { padding: 16px; overflow-wrap: anywhere; }
+            .footer-inner { grid-template-columns: 1fr; gap: 20px; padding: 27px 0; }
+            .footer-contact { justify-items: start; }
+            .copyright { padding-top: 13px; }
+            .back-to-top { right: 14px; bottom: 14px; width: 42px; height: 42px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+            .js-reveal { opacity: 1; transform: none; }
+        }
+    </style>
+</head>
+<body id="top">
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="digitrafficai_website.html" aria-label="DigiTrafficAI home">
+                <img class="brand-logo" src="DigiTrafficAI_Master_Logo.png" alt="DigiTrafficAI - Growth Intelligence. Automated.">
+            </a>
+            <a class="back-link" href="digitrafficai_website.html"><span aria-hidden="true">←</span> Back to website</a>
+        </div>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+        <div class="hero-inner">
+            <p class="eyebrow">Service terms</p>
+            <h1 id="page-title">Terms of Service</h1>
+            <p class="hero-company">DigiTrafficAI (DTAI)</p>
+            <p class="hero-intro">These Terms of Service govern your use of the DigiTrafficAI website, services, and related business interactions.</p>
+            <div class="effective-dates">
+                <p><strong>Effective Date:</strong> 03 October 2026</p>
+                <p><strong>Last Updated:</strong> 03 October 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="page-layout">
+        <nav class="toc-desktop" aria-label="Table of Contents">
+            <p class="toc-title">On This Page</p>
+            <ol class="toc-list">
+                <li><a href="#section-1">1. About DigiTrafficAI</a></li>
+                <li><a href="#section-2">2. Acceptance of Terms</a></li>
+                <li><a href="#section-3">3. Use of the Website</a></li>
+                <li><a href="#section-4">4. Services</a></li>
+                <li><a href="#section-5">5. Client Responsibilities</a></li>
+                <li><a href="#section-6">6. Content and Materials Provided by Clients</a></li>
+                <li><a href="#section-7">7. Fees and Payments</a></li>
+                <li><a href="#section-8">8. Project Scope and Changes</a></li>
+                <li><a href="#section-9">9. Intellectual Property</a></li>
+                <li><a href="#section-10">10. AI Tools and Third-Party Technology</a></li>
+                <li><a href="#section-11">11. Research, Data and Business Intelligence</a></li>
+                <li><a href="#section-12">12. Marketing and Performance Disclaimer</a></li>
+                <li><a href="#section-13">13. Third-Party Platforms</a></li>
+                <li><a href="#section-14">14. Confidentiality</a></li>
+                <li><a href="#section-15">15. Privacy and Personal Information</a></li>
+                <li><a href="#section-16">16. Website Content</a></li>
+                <li><a href="#section-17">17. Availability and Service Interruptions</a></li>
+                <li><a href="#section-18">18. Disclaimers</a></li>
+                <li><a href="#section-19">19. Limitation of Liability</a></li>
+                <li><a href="#section-20">20. Indemnity</a></li>
+                <li><a href="#section-21">21. Suspension or Termination</a></li>
+                <li><a href="#section-22">22. Links to Other Websites</a></li>
+                <li><a href="#section-23">23. Changes to These Terms</a></li>
+                <li><a href="#section-24">24. Governing Law</a></li>
+                <li><a href="#section-25">25. Severability</a></li>
+                <li><a href="#section-26">26. Entire Agreement</a></li>
+                <li><a href="#section-27">27. Contact and Terms Enquiries</a></li>
+            </ol>
+        </nav>
+
+        <div class="terms-content">
+            <nav class="toc-mobile" aria-label="Table of Contents">
+                <details>
+                    <summary>On This Page</summary>
+                    <ol class="toc-list">
+                        <li><a href="#section-1">1. About DigiTrafficAI</a></li>
+                        <li><a href="#section-2">2. Acceptance of Terms</a></li>
+                        <li><a href="#section-3">3. Use of the Website</a></li>
+                        <li><a href="#section-4">4. Services</a></li>
+                        <li><a href="#section-5">5. Client Responsibilities</a></li>
+                        <li><a href="#section-6">6. Content and Materials Provided by Clients</a></li>
+                        <li><a href="#section-7">7. Fees and Payments</a></li>
+                        <li><a href="#section-8">8. Project Scope and Changes</a></li>
+                        <li><a href="#section-9">9. Intellectual Property</a></li>
+                        <li><a href="#section-10">10. AI Tools and Third-Party Technology</a></li>
+                        <li><a href="#section-11">11. Research, Data and Business Intelligence</a></li>
+                        <li><a href="#section-12">12. Marketing and Performance Disclaimer</a></li>
+                        <li><a href="#section-13">13. Third-Party Platforms</a></li>
+                        <li><a href="#section-14">14. Confidentiality</a></li>
+                        <li><a href="#section-15">15. Privacy and Personal Information</a></li>
+                        <li><a href="#section-16">16. Website Content</a></li>
+                        <li><a href="#section-17">17. Availability and Service Interruptions</a></li>
+                        <li><a href="#section-18">18. Disclaimers</a></li>
+                        <li><a href="#section-19">19. Limitation of Liability</a></li>
+                        <li><a href="#section-20">20. Indemnity</a></li>
+                        <li><a href="#section-21">21. Suspension or Termination</a></li>
+                        <li><a href="#section-22">22. Links to Other Websites</a></li>
+                        <li><a href="#section-23">23. Changes to These Terms</a></li>
+                        <li><a href="#section-24">24. Governing Law</a></li>
+                        <li><a href="#section-25">25. Severability</a></li>
+                        <li><a href="#section-26">26. Entire Agreement</a></li>
+                        <li><a href="#section-27">27. Contact and Terms Enquiries</a></li>
+                    </ol>
+                </details>
+            </nav>
+
+            <div class="terms-section" aria-label="Terms of Service introduction">
+                <p>These Terms of Service ("Terms") govern your access to and use of the DigiTrafficAI (DTAI) website, services, digital channels, and related business interactions.</p>
+                <p>By accessing the DTAI website, requesting services, submitting an enquiry, communicating with DTAI, or otherwise engaging with DTAI, you acknowledge that you have read, understood, and agree to these Terms, subject to applicable law.</p>
+                <p>If you do not agree with these Terms, please do not use the website or request DTAI services.</p>
+            </div>
+
+            <section class="terms-section" id="section-1" aria-labelledby="heading-1">
+                <h2 id="heading-1"><span class="section-number">01</span> ABOUT DIGITRAFFICAI</h2>
+                <p>DigiTrafficAI ("DTAI", "we", "us", or "our") is a business-growth platform providing services that may include:</p>
+                <ul><li>Business consultancy and growth support</li><li>Digital marketing</li><li>Market research and B2B intelligence</li><li>Lead-generation support</li><li>Business setup and documentation support</li><li>AI productivity and business systems</li><li>Content and media services</li><li>Training and educational services</li><li>Related business-growth and research services</li></ul>
+                <p>The specific services provided to a client will depend on the agreed scope of work, proposal, quotation, service agreement, or other applicable arrangement.</p>
+            </section>
+
+            <section class="terms-section" id="section-2" aria-labelledby="heading-2">
+                <h2 id="heading-2"><span class="section-number">02</span> ACCEPTANCE OF TERMS</h2>
+                <p>By using the DTAI website or requesting our services, you agree to comply with these Terms.</p>
+                <p>If you are using DTAI services on behalf of a business, organisation, or another entity, you confirm that you have the appropriate authority to act on its behalf.</p>
+                <p>Additional terms may apply to specific services, projects, products, or agreements.</p>
+                <p>Where a written agreement between DTAI and a client contains terms that specifically govern a service or project, those terms may apply in addition to these Terms.</p>
+            </section>
+
+            <section class="terms-section" id="section-3" aria-labelledby="heading-3">
+                <h2 id="heading-3"><span class="section-number">03</span> USE OF THE WEBSITE</h2>
+                <p>You agree to use the DTAI website only for lawful purposes.</p>
+                <p>You must not:</p>
+                <ul><li>Use the website for unlawful, fraudulent, or abusive purposes</li><li>Attempt to gain unauthorised access to systems or accounts</li><li>Interfere with website security or functionality</li><li>Introduce malicious code, viruses, or harmful software</li><li>Scrape, copy, reproduce, or systematically collect website content without appropriate permission</li><li>Misrepresent your identity or affiliation</li><li>Use the website in a manner that could damage DTAI, its users, systems, or reputation</li><li>Attempt to disrupt or overload the website or related infrastructure</li></ul>
+                <p>DTAI may restrict or suspend access where reasonably necessary to protect its website, systems, users, or legitimate business interests.</p>
+            </section>
+
+            <section class="terms-section" id="section-4" aria-labelledby="heading-4">
+                <h2 id="heading-4"><span class="section-number">04</span> SERVICES</h2>
+                <p>DTAI may provide different business, digital, research, consulting, marketing, AI, content, and related services.</p>
+                <p>The exact scope of a service may include:</p>
+                <ul><li>Deliverables</li><li>Timelines</li><li>Responsibilities</li><li>Required information</li><li>Communication arrangements</li><li>Fees</li><li>Payment terms</li><li>Revisions</li><li>Third-party tools or platforms</li><li>Other project-specific requirements</li></ul>
+                <p>These matters may be specified in a quotation, proposal, invoice, statement of work, service agreement, or other written communication.</p>
+                <p>DTAI does not guarantee that every service will be suitable for every business or objective.</p>
+            </section>
+
+            <section class="terms-section" id="section-5" aria-labelledby="heading-5">
+                <h2 id="heading-5"><span class="section-number">05</span> CLIENT RESPONSIBILITIES</h2>
+                <p>Clients are responsible for providing accurate, complete, and timely information reasonably required to deliver the agreed service.</p>
+                <p>Clients may also be responsible for:</p>
+                <ul><li>Providing required documents and materials</li><li>Providing accurate business information</li><li>Providing necessary approvals</li><li>Reviewing and approving deliverables</li><li>Providing access to agreed platforms where required</li><li>Ensuring that supplied content does not infringe third-party rights</li><li>Ensuring that they have appropriate authority to provide information or access</li><li>Communicating changes or corrections in a timely manner</li></ul>
+                <p>Delays caused by missing information, approvals, access, or client decisions may affect project timelines.</p>
+            </section>
+
+            <section class="terms-section" id="section-6" aria-labelledby="heading-6">
+                <h2 id="heading-6"><span class="section-number">06</span> CONTENT AND MATERIALS PROVIDED BY CLIENTS</h2>
+                <p>Where a client provides text, images, videos, logos, documents, data, customer information, business information, account access, or other materials, the client remains responsible for ensuring that they have the necessary rights and permissions to provide and use those materials.</p>
+                <p>The client authorises DTAI to use such materials only as reasonably necessary to provide the agreed services, subject to applicable agreements and law.</p>
+                <p>Clients should not provide sensitive or confidential information unless it is reasonably necessary for the agreed service and appropriate safeguards are in place.</p>
+            </section>
+
+            <section class="terms-section" id="section-7" aria-labelledby="heading-7">
+                <h2 id="heading-7"><span class="section-number">07</span> FEES AND PAYMENTS</h2>
+                <p>Fees, payment schedules, taxes, deposits, milestones, and other commercial terms may be specified separately in a quotation, proposal, invoice, service agreement, or other written arrangement.</p>
+                <p>Unless otherwise agreed in writing:</p>
+                <ul><li>The client is responsible for paying agreed fees within the applicable payment period.</li><li>Additional work outside the agreed scope may require additional fees.</li><li>Third-party costs may be payable separately where applicable.</li><li>Taxes or statutory charges may apply where required.</li></ul>
+                <p>DTAI may pause or suspend work where agreed payments are overdue, subject to applicable contractual terms.</p>
+            </section>
+
+            <section class="terms-section" id="section-8" aria-labelledby="heading-8">
+                <h2 id="heading-8"><span class="section-number">08</span> PROJECT SCOPE AND CHANGES</h2>
+                <p>Services are normally delivered according to the agreed scope.</p>
+                <p>Requests that materially change the original scope may require:</p>
+                <ul><li>Additional time</li><li>Additional fees</li><li>Revised deliverables</li><li>Revised timelines</li><li>Written approval</li></ul>
+                <p>DTAI may communicate any material scope changes before undertaking additional work.</p>
+            </section>
+
+            <section class="terms-section" id="section-9" aria-labelledby="heading-9">
+                <h2 id="heading-9"><span class="section-number">09</span> INTELLECTUAL PROPERTY</h2>
+                <p>Unless otherwise agreed in writing, DTAI retains ownership of its pre-existing materials, internal frameworks, methodologies, templates, systems, processes, tools, know-how, and reusable resources.</p>
+                <p>Client-specific final deliverables may be subject to the ownership or usage terms agreed for the relevant project.</p>
+                <p>Third-party materials, platforms, software, fonts, stock assets, AI tools, plugins, libraries, and other external resources may remain subject to their respective licences and terms.</p>
+                <p>Nothing in these Terms automatically transfers ownership of third-party intellectual property to the client.</p>
+            </section>
+
+            <section class="terms-section" id="section-10" aria-labelledby="heading-10">
+                <h2 id="heading-10"><span class="section-number">10</span> AI TOOLS AND THIRD-PARTY TECHNOLOGY</h2>
+                <p>DTAI may use AI-assisted tools, automation platforms, software, cloud services, analytics tools, communication platforms, and other third-party technologies in connection with its services.</p>
+                <p>These technologies may be used for purposes such as:</p>
+                <ul><li>Research</li><li>Content development</li><li>Business analysis</li><li>Workflow development</li><li>Data organisation</li><li>Drafting</li><li>Productivity</li><li>Internal operations</li></ul>
+                <p>Where third-party services are used, their own terms, licences, limitations, and privacy practices may apply.</p>
+                <p>DTAI will take reasonable steps to manage information access appropriately, but third-party platforms are independently operated and may be subject to their own technical and operational limitations.</p>
+            </section>
+
+            <section class="terms-section" id="section-11" aria-labelledby="heading-11">
+                <h2 id="heading-11"><span class="section-number">11</span> RESEARCH, DATA AND BUSINESS INTELLIGENCE</h2>
+                <p>DTAI may provide market research, B2B intelligence, competitor research, customer research, lead research, and related information services.</p>
+                <p>Research may include information obtained from publicly available sources and third-party platforms.</p>
+                <p>DTAI does not guarantee that publicly available information is always:</p>
+                <ul><li>Complete</li><li>Current</li><li>Accurate</li><li>Error-free</li><li>Suitable for every business decision</li></ul>
+                <p>Research outputs are provided for the agreed business purpose and should be evaluated by the client before making material commercial, financial, legal, or operational decisions.</p>
+            </section>
+
+            <section class="terms-section" id="section-12" aria-labelledby="heading-12">
+                <h2 id="heading-12"><span class="section-number">12</span> MARKETING AND PERFORMANCE DISCLAIMER</h2>
+                <p>Where DTAI provides digital marketing, lead generation, content, advertising, consulting, or growth-related services, DTAI does not guarantee a specific level of:</p>
+                <ul><li>Revenue</li><li>Profit</li><li>Sales</li><li>Leads</li><li>Website traffic</li><li>Followers</li><li>Engagement</li><li>Search rankings</li><li>Advertising performance</li><li>Conversion rates</li><li>Business growth</li></ul>
+                <p>Performance may depend on factors outside DTAI's control, including market conditions, competition, client implementation, pricing, product-market fit, advertising platforms, algorithms, third-party systems, customer behaviour, and other external factors.</p>
+            </section>
+
+            <section class="terms-section" id="section-13" aria-labelledby="heading-13">
+                <h2 id="heading-13"><span class="section-number">13</span> THIRD-PARTY PLATFORMS</h2>
+                <p>DTAI may use or integrate with third-party services such as:</p>
+                <ul><li>Social-media platforms</li><li>Advertising platforms</li><li>Website hosting providers</li><li>Cloud platforms</li><li>CRM systems</li><li>Email providers</li><li>Analytics services</li><li>Payment providers</li><li>AI platforms</li><li>Communication platforms</li><li>Productivity software</li></ul>
+                <p>DTAI does not control the availability, policies, functionality, pricing, security, or continued operation of independent third-party platforms.</p>
+                <p>Changes, outages, restrictions, account suspensions, algorithm changes, or policy changes by third-party platforms may affect services.</p>
+            </section>
+
+            <section class="terms-section" id="section-14" aria-labelledby="heading-14">
+                <h2 id="heading-14"><span class="section-number">14</span> CONFIDENTIALITY</h2>
+                <p>DTAI will handle client information responsibly and in accordance with applicable agreements and its Privacy Policy.</p>
+                <p>Clients should clearly identify information that requires specific confidentiality treatment where appropriate.</p>
+                <p>Confidentiality obligations may be subject to separate agreements, including non-disclosure agreements or service contracts.</p>
+                <p>Information that is publicly available, independently developed, lawfully obtained from another source, or required to be disclosed by law may not be treated as confidential where legally applicable.</p>
+            </section>
+
+            <section class="terms-section" id="section-15" aria-labelledby="heading-15">
+                <h2 id="heading-15"><span class="section-number">15</span> PRIVACY AND PERSONAL INFORMATION</h2>
+                <p>DTAI's collection and handling of personal information is governed by its Privacy Policy.</p>
+                <p>The Privacy Policy explains how DTAI may collect, use, store, share, and protect information.</p>
+                <p>By using the DTAI website or services, you should review the applicable Privacy Policy in addition to these Terms.</p>
+            </section>
+
+            <section class="terms-section" id="section-16" aria-labelledby="heading-16">
+                <h2 id="heading-16"><span class="section-number">16</span> WEBSITE CONTENT</h2>
+                <p>The information provided on the DTAI website is intended for general informational and business purposes.</p>
+                <p>DTAI may update, modify, remove, or replace website content at any time.</p>
+                <p>While DTAI aims to provide useful and accurate information, it does not guarantee that all website content will always be:</p>
+                <ul><li>Complete</li><li>Current</li><li>Accurate</li><li>Error-free</li><li>Available without interruption</li></ul>
+            </section>
+
+            <section class="terms-section" id="section-17" aria-labelledby="heading-17">
+                <h2 id="heading-17"><span class="section-number">17</span> AVAILABILITY AND SERVICE INTERRUPTIONS</h2>
+                <p>DTAI does not guarantee that the website or services will always be available without interruption.</p>
+                <p>Availability may be affected by:</p>
+                <ul><li>Maintenance</li><li>Technical failures</li><li>Hosting issues</li><li>Internet connectivity</li><li>Third-party service interruptions</li><li>Security incidents</li><li>Software updates</li><li>Events outside DTAI's reasonable control</li></ul>
+                <p>DTAI may temporarily suspend or modify website functionality where reasonably necessary.</p>
+            </section>
+
+            <section class="terms-section" id="section-18" aria-labelledby="heading-18">
+                <h2 id="heading-18"><span class="section-number">18</span> DISCLAIMERS</h2>
+                <p>To the extent permitted by applicable law, DTAI provides its website and general informational content on an "as available" basis.</p>
+                <p>Nothing on the website should be treated as:</p>
+                <ul><li>Legal advice</li><li>Financial advice</li><li>Tax advice</li><li>Investment advice</li><li>Professional advice outside the specific service agreed with DTAI</li></ul>
+                <p>Where professional advice is required, users should consult an appropriately qualified professional.</p>
+            </section>
+
+            <section class="terms-section" id="section-19" aria-labelledby="heading-19">
+                <h2 id="heading-19"><span class="section-number">19</span> LIMITATION OF LIABILITY</h2>
+                <p>To the extent permitted by applicable law, DTAI shall not be responsible for indirect, incidental, consequential, special, or unforeseeable losses arising from the use of the website or services.</p>
+                <p>This may include losses relating to:</p>
+                <ul><li>Business interruption</li><li>Loss of revenue</li><li>Loss of profits</li><li>Loss of anticipated savings</li><li>Loss of business opportunities</li><li>Loss of data</li><li>Third-party platform failures</li></ul>
+                <p>Nothing in these Terms excludes or limits liability where such exclusion or limitation is prohibited by applicable law.</p>
+                <p>Where a separate written agreement contains specific liability provisions, those provisions may apply to the relevant service or project.</p>
+            </section>
+
+            <section class="terms-section" id="section-20" aria-labelledby="heading-20">
+                <h2 id="heading-20"><span class="section-number">20</span> INDEMNITY</h2>
+                <p>To the extent permitted by applicable law, you agree to take responsibility for claims or losses arising from:</p>
+                <ul><li>Your unlawful use of the website</li><li>Your violation of these Terms</li><li>Your misuse of DTAI services</li><li>Your infringement of third-party rights</li><li>Materials or information supplied by you where you did not have the necessary rights or permissions</li></ul>
+                <p>This section is subject to applicable law and any separate contractual agreement.</p>
+            </section>
+
+            <section class="terms-section" id="section-21" aria-labelledby="heading-21">
+                <h2 id="heading-21"><span class="section-number">21</span> SUSPENSION OR TERMINATION</h2>
+                <p>DTAI may suspend or terminate access to its website or services where reasonably necessary, including where:</p>
+                <ul><li>These Terms are materially breached</li><li>Payments are not made as agreed</li><li>There is suspected misuse or fraudulent activity</li><li>Security is at risk</li><li>Continued service would create legal or operational concerns</li><li>Required information or cooperation is not provided</li></ul>
+                <p>Project-specific termination rights may also be governed by separate written agreements.</p>
+            </section>
+
+            <section class="terms-section" id="section-22" aria-labelledby="heading-22">
+                <h2 id="heading-22"><span class="section-number">22</span> LINKS TO OTHER WEBSITES</h2>
+                <p>The DTAI website may contain links to external websites or services.</p>
+                <p>These links may be provided for convenience or informational purposes.</p>
+                <p>DTAI does not control independent third-party websites and is not responsible for their:</p>
+                <ul><li>Content</li><li>Availability</li><li>Security</li><li>Privacy practices</li><li>Terms</li><li>Policies</li></ul>
+                <p>Users should review the applicable terms and privacy policies of external websites.</p>
+            </section>
+
+            <section class="terms-section" id="section-23" aria-labelledby="heading-23">
+                <h2 id="heading-23"><span class="section-number">23</span> CHANGES TO THESE TERMS</h2>
+                <p>DTAI may update these Terms from time to time to reflect:</p>
+                <ul><li>Changes to services</li><li>Changes to technology</li><li>Changes to business operations</li><li>Changes to applicable law</li><li>Changes to third-party platforms</li><li>Other operational requirements</li></ul>
+                <p>The updated version will be published on this website with a revised "Last Updated" date.</p>
+                <p>Continued use of the website after an update may constitute acceptance of the updated Terms where permitted by applicable law.</p>
+            </section>
+
+            <section class="terms-section" id="section-24" aria-labelledby="heading-24">
+                <h2 id="heading-24"><span class="section-number">24</span> GOVERNING LAW</h2>
+                <p>These Terms shall be interpreted in accordance with the applicable laws and regulations governing DTAI.</p>
+                <p>Where applicable, disputes relating to these Terms shall be subject to the jurisdiction specified in DTAI's applicable contractual terms.</p>
+                <p>Nothing in these Terms is intended to remove any rights that cannot legally be excluded under applicable law.</p>
+            </section>
+
+            <section class="terms-section" id="section-25" aria-labelledby="heading-25">
+                <h2 id="heading-25"><span class="section-number">25</span> SEVERABILITY</h2>
+                <p>If any provision of these Terms is found to be invalid, unlawful, or unenforceable, the remaining provisions shall continue to apply to the extent permitted by applicable law.</p>
+                <p>The affected provision may be interpreted or modified to the minimum extent necessary to make it enforceable while preserving its intended purpose, where legally permitted.</p>
+            </section>
+
+            <section class="terms-section" id="section-26" aria-labelledby="heading-26">
+                <h2 id="heading-26"><span class="section-number">26</span> ENTIRE AGREEMENT</h2>
+                <p>These Terms, together with the applicable Privacy Policy and any separate written service agreement, proposal, quotation, statement of work, or other applicable contractual document, govern the relevant relationship between DTAI and the user or client.</p>
+                <p>Where a specific written agreement contains provisions that conflict with these general Terms, the specific agreement may govern the relevant service or project.</p>
+            </section>
+
+            <section class="terms-section contact-section" id="section-27" aria-labelledby="heading-27">
+                <h2 id="heading-27"><span class="section-number">27</span> CONTACT AND TERMS ENQUIRIES</h2>
+                <p>If you have a question, concern, or request regarding these Terms of Service, please contact:</p>
+                <div class="contact-details">
+                    <p><strong>DigiTrafficAI (DTAI)</strong></p>
+                    <p><strong>Email:</strong> <a href="mailto:cmo.dtai@outlook.com">cmo.dtai@outlook.com</a></p>
+                    <p><strong>Website:</strong> <a href="https://digitrafficai.com/" target="_blank" rel="noopener noreferrer">https://digitrafficai.com</a></p>
+                    <p><strong>Business Address:</strong> 44/7, Oomar Road, Flower Bazar, Ambur, Tamil Nadu 635802</p>
+                </div>
+                <p>When contacting DTAI regarding these Terms, please provide sufficient information for us to understand your request.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img class="brand-logo" src="DigiTrafficAI_Master_Logo.png" alt="DigiTrafficAI - Growth Intelligence. Automated.">
+                <p><strong>DigiTrafficAI (DTAI)</strong></p>
+                <p>Business Growth • Digital Marketing • AI • Research • Business Intelligence</p>
+                <p><a href="mailto:cmo.dtai@outlook.com">cmo.dtai@outlook.com</a></p>
+                <p>44/7, Oomar Road, Flower Bazar, Ambur, Tamil Nadu 635802</p>
+            </div>
+            <div class="footer-contact">
+                <a href="https://digitrafficai.com/" target="_blank" rel="noopener noreferrer">https://digitrafficai.com</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="copyright">© DigiTrafficAI (DTAI). All rights reserved.</div>
+    </footer>
+
+    <a class="back-to-top" href="#top" aria-label="Back to top" title="Back to top">↑</a>
+
+    <script>
+        const sectionElements = [...document.querySelectorAll('.terms-section[id^="section-"]')];
+        const tocLinks = [...document.querySelectorAll('.toc-list a')];
+        const backToTop = document.querySelector('.back-to-top');
+        const mobileToc = document.querySelector('.toc-mobile details');
+
+        if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.05 });
+            sectionElements.forEach(section => {
+                section.classList.add('js-reveal');
+                revealObserver.observe(section);
+            });
+        }
+
+        if ('IntersectionObserver' in window) {
+            const activeObserver = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    tocLinks.forEach(link => link.classList.toggle('active', link.hash === `#${entry.target.id}`));
+                });
+            }, { rootMargin: '-18% 0px -72% 0px' });
+            sectionElements.forEach(section => activeObserver.observe(section));
+        }
+
+        tocLinks.forEach(link => link.addEventListener('click', () => {
+            if (mobileToc) mobileToc.open = false;
+        }));
+        window.addEventListener('scroll', () => {
+            backToTop.classList.toggle('visible', window.scrollY > 500);
+        }, { passive: true });
+    </script>
+</body>
+</html>
